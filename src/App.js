@@ -1,5 +1,6 @@
 import Profile from "./components/Profile";
 import Links from "./components/Links";
+import Socials from "./components/Socials";
 import Footer from "./components/Footer";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Profile />
       <Links />
+      <Socials />
       <Footer />
     </div>
   );
