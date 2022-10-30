@@ -3,7 +3,7 @@
 const DesignBooks = () => {
   return (
     <div>
-        <a id="book_design" href="https://books.zuri.team/design-rules">Design Books</a>
+        <a id="book__design" href="https://books.zuri.team/design-rules">Design Books</a>
     </div>
   )
 }
