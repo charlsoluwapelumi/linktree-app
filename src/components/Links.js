@@ -4,6 +4,7 @@ import ZuriBooks from "./ZuriBooks"
 import PythonBooks from "./PythonBooks"
 import BackgroundCheckForCode from "./BackgroundCheckForCode"
 import DesignBooks from "./DesignBooks"
+import ContactLink from "./ContactLink"
 
 const Links = () => {
   return (
@@ -14,6 +15,7 @@ const Links = () => {
         <PythonBooks />
         <BackgroundCheckForCode />
         <DesignBooks />
+        <ContactLink />
     </div>
   )
 }
