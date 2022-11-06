@@ -195,6 +195,11 @@ label {
   border-radius: 8px;
 }
 
+#btn__submit:hover {
+  background: #175CD3;
+  border: 1px solid #175CD3;
+}
+
 @media (max-width: 700px) {
   body {
     padding: 0 20px;
