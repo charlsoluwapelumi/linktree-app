@@ -1,17 +1,16 @@
-import Profile from "./components/Profile";
-import ShareButton from "./components/ShareButton";
-import Links from "./components/Links";
-import Socials from "./components/Socials";
-import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Profile />
-      <ShareButton />
-      <Links />
-      <Socials />
-      <Footer />
+      <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route />
+      </Routes>
+      <Home />
     </div>
   );
 }

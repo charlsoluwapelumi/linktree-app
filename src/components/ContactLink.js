@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom"
 
 const ContactLink = () => {
   return (
     <div>
-        <a id="contact" href="/contact">Contact Me</a>
+        <Link to="/contact" id="contact">Contact Me</Link>
     </div>
   )
 }
